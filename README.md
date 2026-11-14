@@ -1,8 +1,10 @@
 # AI-Mira — Unofficial AI-Assisted WINMIRA 2001 Reimplementation
 
-**AI-Mira** is an independent, AI-assisted reimplementation of **WINMIRA 2001**, the latent-class / latent-class-analysis statistics program that was originally commercial software sold for approximately US$200. The original WINMIRA 2001 was designed and developed by the author of this reimplementation.
+**AI-Mira** is an independent, AI-assisted reimplementation of **WINMIRA 2001**, a software package for mixture-distribution Rasch models, HYBRID Rasch–Latent Class mixture models, and latent class analysis (LCA).
 
 AI-Mira is built with Free Pascal / Lazarus and with substantial AI coding assistance. It is **not** the commercial release and is **not associated with the official distributors** of WINMIRA 2001.
+
+Pre-built executables are available for all major platforms: **Windows 11 (x86-64)**, **macOS Intel (x86-64)**, **macOS Apple Silicon (arm64)**, and **Linux x86-64**.
 
 The program has no registration, no serial-number generator and no demo mode. It always runs with the full-version limits (100000 persons, 256 items, 30 categories, 199 latent classes) and does not access the Windows registry. Defaults are stored in a plain `winmira.ini` file.
 

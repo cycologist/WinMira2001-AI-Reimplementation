@@ -43,6 +43,20 @@ The in-app **Help → Contents** menu entry in the current binaries still shows 
 
 The archive also includes `with_class` variants of the Simula files, SPSS versions (`Kft.sav`, `Simula9x.sav`), original fixed-width files, and the original definition/fixation files. Open the ASCII files with **File → Open** using the freefield format and separator `Space`; open the `.sav` files with **File → Open Spss Data**.
 
+## Data formats
+
+The application can read and write several statistical data containers directly; no SPSS, R, Stata or SAS installation is required.
+
+| Format | Import | Export |
+| --- | --- | --- |
+| SPSS `.sav` | yes | yes |
+| R `.rds` (gzip or uncompressed) | yes | yes |
+| R `.rda` / `.RData` (single data.frame) | yes | — |
+| Stata `.dta` (formats 113–119) | yes | format 114 |
+| SAS XPORT `.xpt` | version 5 and 8 | version 5 |
+
+Use **File → Open Data File...** for import and **File → Save → Save data as ...** for export. The source build includes a `make tabtest` round-trip test that passes on Linux, Windows, Intel macOS and Apple Silicon macOS.
+
 ## macOS notes
 
 The macOS bundles are ad-hoc signed but **not notarized**, so Gatekeeper warns on first launch. Right-click **WINMIRA 2001.app** and choose **Open**, or remove the quarantine flag from a terminal:

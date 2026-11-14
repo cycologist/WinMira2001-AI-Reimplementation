@@ -73,6 +73,10 @@ The Apple Silicon build is native arm64; it does not need Rosetta. The Intel bui
 
 The source build includes a `make tabtest` round-trip test for R, Stata and SAS XPORT. It passes on Linux, Windows, Intel macOS and Apple Silicon macOS. All release checksums are verified after upload.
 
+## Disclaimer
+
+AI-Mira is provided **"as is"**, without warranty of any kind, express or implied. There is **no guarantee that it produces the same results** as the commercial WINMIRA 2001. Users should verify results against their own copy of the original program or against the example data provided in this repository.
+
 ## Version
 
 1.45 — free to use, unofficial AI-assisted reimplementation.
